@@ -1,0 +1,41 @@
+name: todo_task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #package for fonts
+  google_fonts: 2.1.0
+  #package for work with date
+  intl: ^0.17.0
+  #database packages
+  hive: ^2.0.3
+  hive_flutter: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  #package for generate code
+  build_runner: ^1.12.2
+  #package for generate hive code
+  hive_generator: ^1.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
